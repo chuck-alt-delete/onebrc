@@ -1,3 +1,4 @@
 /target
 resources/measurements.csv
 .DS_Store
+resources/measurements.parquet

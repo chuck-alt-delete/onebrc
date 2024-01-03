@@ -60,7 +60,7 @@ fn main() -> io::Result<()> {
     let file = File::open(path)?;
     let reader = BufReader::new(file);
 
-    let chunk_size = 1_000_000; // Number of lines per chunk
+    let chunk_size = 10_000_000; // Number of lines per chunk
     let mut chunk = Vec::with_capacity(chunk_size);
     let mut handles = vec![];
     let final_results = Arc::new(Mutex::new(HashMap::new()));
