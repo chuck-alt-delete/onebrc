@@ -1,4 +1,4 @@
-use csv::{Trim};
+use csv::Trim;
 use arrow::array::{StringArray, Float64Array};
 use arrow::datatypes::{DataType, Field, Schema};
 use arrow::record_batch::RecordBatch;

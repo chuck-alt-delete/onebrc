@@ -1,4 +1,4 @@
-use rand::{distributions::{Distribution, Uniform}, Rng};
+use rand::distributions::{Distribution, Uniform};
 use std::fs::File;
 use std::io::{BufWriter, Write};
 use std::error::Error;
