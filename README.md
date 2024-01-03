@@ -20,4 +20,4 @@ cargo run
 
 ## Current score
 
-- 405 seconds on an m1 macbook wjth 16GB kf RAM
+- 405 seconds on an m1 macbook with 16GB of RAM
