@@ -1,0 +1,15 @@
+[package]
+name = "onebrc"
+version = "0.1.0"
+edition = "2021"
+default-run = "onebrc"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+csv = "1.3.0"
+rand = "0.8.5"
+
+[[bin]]
+name = "create_csv"
+path = "tools/create_csv.rs"
